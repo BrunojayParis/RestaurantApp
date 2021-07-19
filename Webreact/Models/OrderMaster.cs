@@ -11,8 +11,8 @@ namespace Webreact.Models
 
         public int OrderNumber { get; set; }
 
-        public int CustomerId { get; set; }
-
+        public int CustocmerId { get; set; }
+        public Customer Customer  { get; set; }
         public string PaymentMethod { get; set; }
 
         public decimal Grandtotal { get; set; }
