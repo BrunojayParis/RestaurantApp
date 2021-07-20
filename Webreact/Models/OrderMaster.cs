@@ -16,5 +16,6 @@ namespace Webreact.Models
         public string PaymentMethod { get; set; }
 
         public decimal Grandtotal { get; set; }
+        public List<OrderDetails> OrderDetails { get; set; }
     }
 }
